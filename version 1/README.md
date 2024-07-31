@@ -18,7 +18,7 @@ To install the Network Analyzer, follow these steps:
 
 2. Change to the project directory:
     ```bash
-    cd network-analyzer
+    cd Network_Analyzer
     ```
 
 3. Install the dependencies:
