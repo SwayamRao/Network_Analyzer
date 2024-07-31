@@ -23,7 +23,7 @@ To install the Network Analyzer, follow these steps:
 
 3. Install the dependencies:
     ```bash
-    pip install `scapy`
+    pip install scapy
     ```
 ## Usage
 
