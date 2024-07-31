@@ -13,7 +13,7 @@ To install the Network Analyzer, follow these steps:
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/SwayamRao/Network_Analyzer/tree/main/version%201
+    git clone https://github.com/SwayamRao/Network_Analyzer
     ```
 
 2. Change to the project directory:
