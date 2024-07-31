@@ -1,13 +1,30 @@
 # Network Analyzer
 
-This project consists of two Python scripts: `main.py` and `arp.py`. These scripts are used to scan a network for devices and detect ARP poisoning attacks respectively.
+## Introduction
+The Network Analyzer is a project designed to analyze and monitor your network. It provides functionality for scanning network devices, saving scan results, and detecting ARP poisoning attacks.
 
-## Requirements
+## Features
+- **Network Scanning**: The Network Analyzer scans the network and retrieves the IP and MAC addresses of connected devices.
+- **ARP Poisoning Detection**: It detects ARP poisoning attacks by comparing current and previous network scans.
+- **Secure Result Storage**: Scan results are securely stored in a file with restricted permissions.
 
-- Python 3.x
-- Scapy library (`pip install scapy`)
-- Root privileges to run the scripts
+## Installation
+To install the Network Analyzer, follow these steps:
 
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/SwayamRao/Network_Analyzer/tree/main/version%201
+    ```
+
+2. Change to the project directory:
+    ```bash
+    cd network-analyzer
+    ```
+
+3. Install the dependencies:
+    ```bash
+    pip install `scapy`
+    ```
 ## Usage
 
 ### `main.py`
@@ -35,3 +52,6 @@ sudo python3 main.py filename ip_range iface
 - `filename`: The filename to store the results
 - `ip_range`: The IP range to scan (in CIDR notation, e.g., `192.168.1.0/24`)
 - `iface`: The network interface to use for scanning (e.g., `wlan0`)
+
+## Contact
+For any inquiries or support, please contact me at work.mail.g@proton.me
